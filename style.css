@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+     background-color: black;
+    color: white;
+}
+main{
+position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+.logo > img {
+    width: 250px;
+    filter: invert(1);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.nav > div{
+    padding: 0px 25px;
+    font-size: 20px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.login> div {
+    margin-right: 30px;
+    font-size: 20px;
+}
+.login > button{
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 15px 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.center{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.book{
+    background-color:rgb(126,56,54);
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 25px 45px;
+    margin: 0px 20px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+}
+
+
+.img1{
+position: absolute;
+top: 150px;
+left: 150px;
+height: 230px;
+border-radius: 20px;
+}
+.img2{
+    position: absolute;
+    bottom: -70px;
+    right: 130px;
+    height: 150px;
+    border-radius: 20px;
+    }
+    .img3{
+        position: absolute;
+        top: 100px;
+        right: 380px;
+        height: 230px;
+        border-radius: 20px;
+        z-index: -1;
+        }
+    
+        .img4{
+            position: absolute;
+            bottom: -70px;
+            left: 450px;
+            height: 230px;
+            border-radius: 20px;
+            z-index: -1;
+            }
+        
